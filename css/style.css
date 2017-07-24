@@ -55,41 +55,40 @@ table {
     margin: 0 auto;
 }
 
-header {
-    position: relative;
-}
-
-header img.image-main {
-    width: 100%;
-}
-
-header h1 {
-    position: absolute;
-    top: 150px;
-    left: 250px;
+#header {
+    background: url("../img/video.png") no-repeat center;
+    background-size: cover;
+    padding: 150px 0;
+    background-position: top left;
     text-align: center;
-    width: 50%;
+}
+
+#header .red-btn {
+    width: 114px;
+    display: inline-block;
+    margin-top: 100px;
+}
+
+
+#header h1 {
+    text-align: center;
     font-size: 50px;
+    padding: 0 235px;
 }
 
-header button {
-    position: absolute;
-    top: 352px;
-    left: 434px;
-    height: 30px;
-    width: 128px;
-    color: white;
-    background-color: indianred;
-    border-radius: 5px;
+
+.article {
+
 }
 
-.under-button {
-    position: absolute;
-    font-size: x-small;
-    text-align: center;
-    top: 400px;
-    left: 434px;
+.article h2 {
+    font-size: 20px;
 }
+
+
+
+
+
 
 section.section-left {
     float: left;
@@ -161,4 +160,43 @@ div.titles {
     width: 250px;
     left: 320px;
     font-size: small;
+}
+
+.red-btn {
+    background-color: #fb8686;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 8px;
+}
+
+.middle {
+    width: 100px;
+}
+
+
+.text {
+
+}
+
+
+
+.boxes {
+    width: 100%;
+}
+
+.box {
+    float: left;
+    width: 200px;
+}
+
+.box img {
+
+}
+
+.box h3 {
+
+}
+.box p {
+
 }
