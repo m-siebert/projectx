@@ -47,6 +47,35 @@ table {
     border-spacing: 0;
 }
 
+@font-face {
+    font-family: exoThin;
+    src: url("../fonts/Exo-Thin.otf") format('opentype');
+}
+
+@font-face {
+    font-family: exoMedium;
+    src: url("../fonts/Exo-Medium.otf") format('opentype');
+}
+
+@font-face {
+    font-family: exoRegular;
+    src: url("../fonts/Exo-Regular.otf") format('opentype');
+}
+
+@font-face {
+    font-family: exoRegularIt;
+    src: url("../fonts/Exo-Regular-Italic.otf") format('opentype');
+}
+
+@font-face {
+    font-family: latoRegular;
+    src: url("../fonts/Lato-Regular.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: test;
+    src: url("../fonts");
+}
 
 
 #wrapper {
@@ -69,15 +98,41 @@ table {
     margin-top: 100px;
 }
 
-
-#header h1 {
-    text-align: center;
-    font-size: 50px;
-    padding: 0 235px;
+.red-btn {
+    background-color: #fb8686;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 8px;
 }
 
 
+#header h1 {
+    text-align: center;
+    font-size: 46px;
+    font-family: exoThin;
+    padding: 7px 245px;
+}
+
+#header p {
+    font-size: 10px;
+    font-family: exoThin;
+    padding: 12px;
+}
+
+#intro {
+    background: url("../img/Rectangle 22.png") no-repeat;
+    background-color: #ffffff;
+    background-position: right top;
+    padding: 250px 0;
+    background-size: contain;
+}
+
 .article {
+
+}
+
+.article span {
 
 }
 
@@ -85,89 +140,12 @@ table {
     font-size: 20px;
 }
 
+.article h2 span {
 
-
-
-
-
-section.section-left {
-    float: left;
-    width: 60%;
-    text-align: left;
 }
 
-div.text-box {
-    margin-left: 20%;
-    width: 60%;
-    margin-top: 20%;
-}
+.article p {
 
-h1.title1 {
-    color: indianred;
-    font-size: small;
-}
-
-h2.title2 {
-    color: black;
-    font-size: xx-large;
-    margin: 0.2em 0 0 0;
-}
-.points {
-    color: indianred;
-}
-.text-box p {
-    margin: 1em 0 0 0;
-    font-size: small;
-}
-
-aside.aside-right {
-    float: right;
-    width: 40%;
-}
-
-aside img {
-    width: 100%;
-}
-
-#features img.background-features {
-    width: 100%;
-    position: relative;
-}
-div.titles {
-    position: absolute;
-    text-align: center;
-    width: 100%;
-    height: 0;
-    margin: auto;
-    top: 250%;          /*Nicht optimal, wenn Teil dazwischen hinzugefügt wird.*/
-    left: 0;
-    bottom: 0;
-    right: 0;
-    z-index: 51;
-}
-
-.containerbox-pictures img {
-    position: absolute;
-    top: 197%;
-    left: 430px;
-    width: 50px;
-}
-
-.containerbox-pictures p {
-    position: absolute;
-    text-align: center;
-    top: 210%;
-    width: 250px;
-    left: 320px;
-    font-size: small;
-}
-
-.red-btn {
-    background-color: #fb8686;
-    color: #fff;
-    text-transform: uppercase;
-    text-decoration: none;
-    padding: 8px;
 }
 
 .middle {
