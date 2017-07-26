@@ -72,11 +72,6 @@ table {
     src: url("../fonts/Lato-Regular.ttf") format('truetype');
 }
 
-@font-face {
-    font-family: test;
-    src: url("../fonts");
-}
-
 
 #wrapper {
     width: 1000px;
@@ -124,57 +119,72 @@ table {
     background: url("../img/Rectangle 22.png") no-repeat;
     background-color: #ffffff;
     background-position: right top;
-    padding: 250px 0;
+    padding: 145px 0;
     background-size: contain;
 }
 
 .article {
-
+    padding: 0px 595px 0px 0px;
+    font-family: exoMedium;
 }
 
 .article span {
-
+    color: #fb8686;
+    font-size: 15px;
 }
 
 .article h2 {
-    font-size: 20px;
+    font-size: 30px;
 }
 
 .article h2 span {
-
+    font-size: 30px;
+    color: #fb8686;
 }
 
 .article p {
-
+    margin-top: 20px;
+    font-family: exoThin;
+    font-size: 12px;
 }
 
-.middle {
-    width: 100px;
+#features {
+    background: url("../img/BG-features.png") no-repeat center;
+    background-size: cover;
+    padding: 207px 0;
+    text-align: center;
+    font-family: exoMedium;
+    background-position: 0 -22px;
 }
 
-
-.text {
-
+#features header {
+    padding: 0 0;
+    position: relative;
+    bottom: 115px;
 }
-
-
 
 .boxes {
     width: 100%;
+    position: relative;
+    bottom: 35px;
 }
 
 .box {
     float: left;
     width: 200px;
+    margin-left: 100px;
 }
 
 .box img {
-
+    width: 45px;
 }
 
 .box h3 {
-
+    font-size: 15px;
+    margin-top: 10px;
 }
 .box p {
-
+    font-size: 12px;
+    font-family: exoThin;
+    margin-top: 10px;
 }
